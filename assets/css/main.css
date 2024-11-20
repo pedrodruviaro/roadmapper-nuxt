@@ -18,18 +18,18 @@
   --p-primary-950: #53001e;
 
   --p-surface-0: #ffffff;
-  --p-surface-50: #fff5f7;
-  --p-surface-100: #ffe4e8;
-  --p-surface-200: #ffc1cc;
-  --p-surface-300: #ff99b0;
-  --p-surface-400: #ff7094;
-  --p-surface-500: #ff4778;
-  --p-surface-600: #db3563;
-  --p-surface-700: #b7244e;
-  --p-surface-800: #93133a;
-  --p-surface-900: #7a072c;
-  --p-surface-950: #53001e;
-  --p-content-border-radius: 3px;
+  --p-surface-50: #fafafa;
+  --p-surface-100: #f4f4f5;
+  --p-surface-200: #e4e4e7;
+  --p-surface-300: #d4d4d8;
+  --p-surface-400: #a1a1aa;
+  --p-surface-500: #71717a;
+  --p-surface-600: #52525b;
+  --p-surface-700: #3f3f46;
+  --p-surface-800: #27272a;
+  --p-surface-900: #18181b;
+  --p-surface-950: #09090b;
+  --p-content-border-radius: 6px;
 }
 
 :root {
@@ -48,4 +48,9 @@
   --p-text-hover-color: var(--p-surface-800);
   --p-text-muted-color: var(--p-surface-500);
   --p-text-hover-muted-color: var(--p-surface-600);
+}
+
+body,
+html {
+  @apply bg-slate-50;
 }

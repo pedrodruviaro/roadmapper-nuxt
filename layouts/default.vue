@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>
+  <main class="container my-10 lg:my-16">
     <slot />
-  </div>
+  </main>
 </template>
