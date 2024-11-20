@@ -1,5 +1,8 @@
 <script setup lang="ts"></script>
 
 <template>
-  <h1>Home page!</h1>
+  <div class="container">
+    <h1>Home page!</h1>
+    <Button size="small" label="Hello nuxt" />
+  </div>
 </template>
